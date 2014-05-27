@@ -2,6 +2,7 @@ package nl.hr.cmi.hangman;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
@@ -27,7 +28,7 @@ public class HangmanActivity extends Activity {
 	}
 
 	/* Called on button click */
-	private void checkLetter(String s) {
+	public void checkLetter(View v) {
 		
 	}
 	
